@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Stats preview card component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <section class="card__stats">
+        <h1 class="card__title">Get <span class="card__title--violet">insights</span> that help your business grow.</h1>
+        <p class="card__body">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="card__footer">
+          <div class="card__companies">
+            <p class="card__number">10k+</p>
+            <p class="card__text">Companies</p>
+          </div>
+          <div class="card__templates">
+            <p class="card__number">314</p>
+            <p class="card__text">Templates</p>
+          </div>
+          <div class="card__queries">
+            <p class="card__number">12M+</p>
+            <p class="card__text">Queries</p>
+          </div>
+        </div>
+      </section>
+      <div class="card__img">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="images/image-header-desktop.jpg">
+          <source media="(max-width: 900px)" srcset="images/image-header-mobile.jpg">
+          <img src="images/image-header-desktop.jpg" alt="header desktop">
+        </picture>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
